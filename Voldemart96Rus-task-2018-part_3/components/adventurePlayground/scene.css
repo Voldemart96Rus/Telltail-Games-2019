@@ -1,0 +1,99 @@
+.adventure-playground {
+  display: flex;
+  flex-direction: column;
+  width: 950px;
+  margin: 35px auto 0;
+}
+
+.action-buttons {
+  display: flex;
+  margin: 25px auto;
+}
+
+.adventure-playground__description {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 36px;
+  color: #fff;
+  position: absolute;
+}
+
+.adventure-playground__img-container {
+  position: relative;
+  width: 950px;
+  height: 380px;
+}
+
+.right-bt {
+  right: 0;
+  bottom: 0;
+  margin-right: 20px;
+}
+
+.left-bt {
+  left: 0;
+  bottom: 0;
+}
+
+.left-top {
+  margin-left: 5px;
+  left: 0;
+  top: 0;
+}
+
+.medal-items {
+  margin-top: 25px;
+  display: flex;
+}
+
+.medal-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 38px;
+  color: #000;
+}
+
+.description_font-size_medium {
+  margin: 0;
+  font-size: 40px;
+}
+
+.medal-item__description {
+  margin-left: 21px;
+}
+
+.medal-items__img_round {
+  border-radius: 50%;
+}
+
+.description_background_dark {
+  padding: 4px 10px;
+  background: #00000071;
+}
+
+.link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+
+.action-button__item {
+  margin-right: 20px;
+  padding: 13px 23px;
+  min-width: max-content;
+  font-family: Roboto, sans-serif;
+  cursor: pointer;
+  border: none;
+  background: #555;
+  border-radius: 4px;
+  font-size: 34px;
+  text-align: center;
+  color: #fff;
+}

@@ -1,0 +1,30 @@
+<div class="adventure-playground">
+    <section class="adventure-playground__img-container">
+        {{#if image}}
+        <img src="{{ staticBasePath }}img/{{ image }}" alt="Изображение приключения/действия" width="950px"
+            height="380px">
+        {{else}}
+        <img src="{{ staticBasePath }}img/404.png" alt="Данное приключение не имеет картики" width="950px"
+            height="380px">
+        {{/if}}
+        {{#if description}}
+        <pre
+            class="adventure-playground__description {{ positionDescription }} description_background_dark">{{ description }}</pre>
+        {{/if}}
+    </section>
+    {{#each achievements}}
+    <section class="medal-items">
+        <img src="{{ ../staticBasePath }}img/{{ image }}" class="medal-items__img_round" alt="medal-img" width="147px"
+            height="147px">
+        <section class="medal-item__description">
+            <P class="medal-description">Достижение получено</P>
+            <p class="medal-description description_font-size_medium"> {{ medal }} </p>
+        </section>
+    </section>
+    {{/each}}
+    <section class="action-buttons">
+        {{#each buttons}}
+        <a href="/{{ nextAction }}" class="link"><button class="action-button__item">{{ name }}</button></a>
+        {{/each}}
+    </section>
+</div>

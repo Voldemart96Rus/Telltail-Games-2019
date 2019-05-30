@@ -1,0 +1,9 @@
+*:focus {
+    outline: none;
+}
+
+body {
+    font: 2em/1.5em Gabriela, sans-serif;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Gabriela|Roboto&display=swap');
+
+*:focus {
+  outline: none;
+}
+
+body {
+  font: 2em/1.5em Gabriela, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.focused {
+  color: #000;
+  cursor: pointer;
+}
+
+.hash-title {
+  margin: 37px 0 0 55px;
+  font-family: Gabriela, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.load {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}

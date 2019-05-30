@@ -1,0 +1,37 @@
+.registration-form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 110px;
+}
+
+.registration-form__title {
+  font: normal normal 42px /15px 'Gabriela', serif;
+  margin: 45px 0 48px;
+}
+
+.registration-form__button {
+  font: normal normal 18px /38px 'Roboto', sans-serif;
+  cursor: pointer;
+  color: #fff;
+  padding: 4px 18px;
+  background: #f5008f;
+  border-radius: 4px;
+  border: none;
+}
+
+.registration-form__input {
+  font: normal normal 15px /32px 'Roboto', sans-serif;
+  border: 1px solid #0003;
+  box-sizing: border-box;
+  width: 380px;
+  height: 38px;
+  padding: 3px 16px;
+  color: #000;
+  margin-bottom: 24px;
+}
+
+.registration-form__file-selection {
+  margin: 10px 0 20px;
+  background: none;
+}
