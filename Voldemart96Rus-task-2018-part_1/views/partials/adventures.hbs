@@ -1,0 +1,41 @@
+<div class="wrap-adventure">
+    <div class="searchBox">
+        <input type="search" placeholder="Введите текст для поиска" class="search-adventure">
+        <button class="bt__search">Найти</button>
+    </div>
+    <div class="searchTags">
+        <div class="tags">#фентези<a href="" class="link link__tags">X</a></div>
+        <input type="search" placeholder="Хештег" class="search-tags">
+    </div>
+    {{#if adventures.length}}
+    {{#if hash}}
+    <h1 class="hash-title">#{{ hash }}</h1>
+    {{/if}}
+    <ul class="adventure-list">
+        {{#each adventures}}
+        <li class="adventure-list__item">
+            <a href="/{{ titleEN }}/start" class="link">
+                {{#if img}}
+                <img src="{{ ../staticBasePath }}img/{{ img }}" class="adventure__img" alt="{{ img }}"
+                    title="{{ description }}">
+                {{else}}
+                <img src="{{ ../staticBasePath }}img/default-adv.png" class="adventure__img" alt="картинка приключения"
+                    title="{{ description }}">
+                {{/if}}
+            </a>
+            <section class="adventure__item-description">
+                <a href="/{{ titleEN }}/start" class="link">{{ title }}</a>
+                <p class="item-description">{{ description }}</p>
+                <section class="item__tags">
+                    {{#each tags}}
+                    <a href="/tags/{{ hashEN }}" class="link"><button class="bt__tags">#{{ hash }}</button></a>
+                    {{/each}}
+                </section>
+            </section>
+        </li>
+        {{/each}}
+    </ul>
+    {{^}}
+    <p class="adventure_not-found">Нет приключений, обратитесь к разработчику приключений!</p>
+    {{/if}}
+</div>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Волшебные приключения</title>
+    <meta name="description" content="{{ meta.description }}">
+    <link rel="shortcut icon" href="{{ staticBasePath }}favicon.png" type="image/png">
+    <link rel="stylesheet" href="{{ staticBasePath }}index.css" media="screen">
+    <link rel="stylesheet" href="{{ staticBasePath }}header.css" media="screen">
+    <link rel="stylesheet" href="{{ staticBasePath }}adventure.css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Gabriela" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    {{> header}}
+    {{#if isPlaying}}
+    {{> adventurePlayground}}
+    {{else}}
+    {{> adventures}}
+    {{/if}}
+</body>
+
+</html>

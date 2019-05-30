@@ -1,0 +1,20 @@
+npm install --save-dev nodemon
+nodemon.json
+
+{
+    "watch": ["dist/", "views/", "public/"],
+     "ext": "js,json, hbs"
+}
+npm install pg
+npm install sequelize
+npm install sequelize-typescript@canary
+npm install reflect-metadata
+docker build --tag voldemart96rus-task-2018 .
+docker run -p 80:80 voldemart96rus-task-2018
+heroku container:login
+heroku container:push web --app voldemart96rus-task-2018
+heroku container:release web --app voldemart96rus-task-2018
+99aeaa1fd8923cb7b0c17535b1a8e58f44db126f
+git reset --hard eba64abb32621bad354130f582c8741b0c5a0c94
+99aeaa1fd8923cb7b0c17535b1a8e58f44db126f
+docker inspect "registry.heroku.com/voldemart96rus-task-2018/web" --format="{{.Id}}

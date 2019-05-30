@@ -1,0 +1,37 @@
+header {
+    display: flex;
+}
+
+.header {
+    margin: 32px 0 25px 57px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 38px;
+}
+
+.root {
+    font-weight: 300;
+    color: black;
+    text-decoration: none;
+}
+
+.path2996 {
+    width: 35px;
+    height: 38px;
+}
+
+.header-title {
+    color: #F49EC4;
+    font-weight: 500;
+}
+
+.line {
+    height: 0;
+    left: 0;
+    top: 96px;
+    background: #919191;
+    border: 1px solid #959393;
+    margin-bottom: 9px;
+}

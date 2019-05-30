@@ -1,0 +1,45 @@
+.authorization-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 110px;
+}
+
+.authorization-form__title {
+  font: normal normal 42px /15px 'Gabriela', serif;
+  margin: 45px 0 48px;
+}
+
+.authorization-form__button {
+  background: #f5008f;
+  border-radius: 4px;
+  font: normal normal 18px /38px 'Roboto', sans-serif;
+  color: #fff;
+  padding: 4px 18px;
+  border: none;
+}
+
+.authorization-form__file-selection {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.file-selection__button {
+  margin-right: 10px;
+  padding: 5px 15px;
+  background: none;
+  border: 1px solid #00000048;
+  border-radius: 4px;
+}
+
+.authorization-form__input {
+  font: normal normal 15px /32px 'Roboto', sans-serif;
+  border: 1px solid #00000048;
+  box-sizing: border-box;
+  width: 380px;
+  height: 38px;
+  padding: 3px 16px;
+  color: #000;
+  margin-bottom: 24px;
+}

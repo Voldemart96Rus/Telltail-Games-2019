@@ -1,0 +1,182 @@
+.adventure_not-found {
+  color: #f00;
+}
+
+.adventure-list {
+  padding: 0;
+  margin: 0;
+}
+
+.wrap-adventure {
+  display: flex;
+  flex-direction: column;
+  width: 934px;
+  margin: 0 auto;
+}
+
+.adventure-list__item {
+  display: flex;
+  width: 934px;
+  margin-top: 51px;
+}
+
+.adventure__item-description {
+  margin-left: 36px;
+  width: 700px;
+}
+
+.item-description {
+  margin: 0 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+
+.link-tags {
+  margin: 10px 10px 0 0;
+}
+
+.adventure__img {
+  width: 200px;
+  height: 152px;
+}
+
+.bt__tags {
+  padding: 0 18px 0 13px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 38px;
+  cursor: pointer;
+  color: #fff;
+  background: #b3b3b3;
+  border-radius: 4px;
+  border: none;
+}
+
+.item__tags {
+  display: flex;
+  margin: 0;
+  flex-wrap: wrap;
+  width: 249px;
+}
+
+.adventure-playground {
+  display: flex;
+  flex-direction: column;
+  width: 950px;
+  margin: 35px auto 0;
+}
+
+.description_font-size_medium {
+  margin: 0;
+  font-size: 40px;
+}
+
+.medal-item__description {
+  margin-left: 21px;
+}
+
+.medal-items__img_round {
+  border-radius: 50%;
+}
+
+.description_background_dark {
+  padding: 4px 10px;
+  background: #00000071;
+}
+
+.search-adventure {
+  height: 37px;
+  width: 400px;
+  padding: 0 5px;
+}
+
+.bt__search {
+  padding: 0 18px 0 18px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 38px;
+  cursor: pointer;
+  color: #fff;
+  background: #f5008f;
+  border-radius: 4px;
+  border: none;
+}
+
+.search-tags {
+  height: 37px;
+  width: 150px;
+  padding: 0 5px;
+}
+
+.tag {
+  display: flex;
+  padding: 0 10px;
+  margin-right: 10px;
+  align-items: center;
+  color: #fff;
+  background: #6c62f0;
+  border-radius: 4px;
+  font-size: 20px;
+  margin-top: 10px;
+  border: none;
+  height: 38px;
+}
+
+.link__tags {
+  right: 0;
+  margin-left: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.search-tags-form {
+  position: relative;
+  margin-top: 5px;
+  display: flex;
+}
+
+.search-box {
+  position: relative;
+}
+
+.list-tags {
+  width: 140px;
+  position: absolute;
+  list-style-type: none;
+  font-size: 18px;
+  border: solid 1px #000;
+  color: #797674;
+  margin: 0;
+  padding-left: 8px;
+  background: #fff;
+}
+
+.item__tag {
+  cursor: pointer;
+  padding: 0;
+  width: 130px;
+}
+
+.selected-tags {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
