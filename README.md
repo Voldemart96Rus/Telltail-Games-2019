@@ -8,7 +8,7 @@
 
 <img src="https://yastatic.net/s3/locdoc/daas-static/telltail/demo.png" width=800>
 
-Вы будете разрабатывать похожую механику, но уже в рамках web-сервиса.   
+Вы будете разрабатывать похожую механику, но уже в рамках web-сервиса.  
 Вот что должно получиться уже после первого домашнего задания:
 
 <img src="https://yastatic.net/s3/locdoc/daas-static/telltail/demo7.gif">
@@ -17,9 +17,9 @@
 
 Мы разбили проект на 3 домашних задания:
 
-- [Здание первое](task/part-one.md)
-- [Задание второе](task/part-two.md)
-- **[Задание третье](task/part-three.md)**
+-   [Здание первое](Voldemart96Rus-task-2018-part_1/part-one.md)
+-   [Задание второе](Voldemart96Rus-task-2018-part_2/part-two.md)
+-   [Задание третье](Voldemart96Rus-task-2018-part_3/part-three.md)
 
 :warning: **Перед тем как приступить к первому заданию, ознакомьтесь с новым [процессом работы](task/workflow.md).**
 
